@@ -10,9 +10,10 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Douglas Duarte",
+  "license": "MIT",
   "devDependencies": {
+    "@ignite-ui/ts-config": "*",
     "tsup": "^8.0.1",
     "typescript": "^5.3.2"
   }
